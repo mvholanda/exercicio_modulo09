@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, form {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(190, 190, 190);
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: burlywood;
+}
+
+ul {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 810px;
+}
+
+.container {
+    max-width: 810px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+li {
+    text-align: center;
+    list-style: none;
+    border-bottom: 1px solid black;
+}
